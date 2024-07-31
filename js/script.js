@@ -79,8 +79,14 @@ console.log(quotes);
 
 /***
  * `getRandomQuote` function
-***/
+ ***/
 
+function randomQuote (arr) {
+  let randomArrIndex = Math.floor(Math.random() * arr.length);
+  return randomArrIndex;
+}
+
+console.log(randomQuote(quotes));
 
 
 /***
