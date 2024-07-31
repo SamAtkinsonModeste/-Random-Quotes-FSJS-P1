@@ -73,7 +73,7 @@ const quotes = [
  * `getRandomQuote` function
  ***/
 
-function randomQuote () {
+function getRandomQuote () {
   let randomIndex = Math.floor(Math.random() * quotes.length);
    let randomQuote = quotes[randomIndex];
   return randomQuote;
@@ -111,7 +111,7 @@ const bgColour = randomColours();
  document.getElementById('quote-box').style.background = `linear-gradient(325deg, rgb(0,0,0) -75%, ${bgColour} 15%, rgb(0,0,0) 400%)`;
 
  //Building Quote with HTML
- const randomQuotes = randomQuote();
+ const randomQuotes = getRandomQuote();
  let quotesHTML= `<p class="quote">${randomQuotes.quote}</p><p class="source">${randomQuotes.source}`;
 
     if (randomQuotes.citation){
