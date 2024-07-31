@@ -88,6 +88,22 @@ function randomQuote (arr) {
 
 console.log(randomQuote(quotes));
 
+/***
+ * `randomColours` function
+ *  gets random numbers between 1 - 255 for each colour variable
+ * assigns each red,green,blue random number to as rgb values
+ ***/
+
+function randomColours () {
+  let red = randomNum = Math.floor(Math.random() * 255) + 1;
+  let green = randomNum = Math.floor(Math.random() * 255) + 1;
+  let blue =randomNum = Math.floor(Math.random() * 255) + 1;
+  let rgb = `rgb(${red},${green}, ${blue})`;
+  return rgb;
+}
+
+console.log(randomColours());
+
 
 /***
  * `printQuote` function
