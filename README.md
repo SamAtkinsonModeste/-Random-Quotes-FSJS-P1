@@ -9,7 +9,7 @@ Random quotes are displayed with information on the _source_ and _year_, along w
 
 - [Overview](#overview)
   - [About this project](#about-this-project)
-  - [Screenshot](#screenshot)
+  - [Screenshot](#screenshot-of-a-few-quotes)
   - [Link](#live-link)
 - [Process](#the-process-for-this-project)
   - [Technologies used](#technologies-used)
@@ -34,7 +34,7 @@ The project features an interactive element, using a **timer method to automate 
 - Live Site URL: [Project 1 Random Quotes](https://samatkinsonmodeste.github.io/Random-Quotes-FSJS-P1/)
 
 ## The Process for this Project
-- A variable called **Quotes** value is an array containing objects with various key value pairs.
+- A variable called **Quotes**'s value is an array containing objects with various key value pairs.
 - A function called **getRandomQuote** used **Math.floor** and **Math.random** to return a random index of the **Quotes** array.
 - A function called **randomColours** used **Math.floor** and **Math.random** for three variables called **red, green and blue** to represent each colour value in CSS **RGB** colour model.
 - A function called **printQuote** was used to call the **getRandomQuote**, and with a variable, each value of the objects of the **Quotes** array were inserted into a **template literal** .
@@ -59,7 +59,7 @@ So, I now have a deeper understanding that what goes in between the brackets to 
 
 - Team Treehouse - [samanthaatkinson](https://www.teamtreehouse.com/samanthaatkinson)
 - Twitter - [@sammodeste1](https://www.twitter.com/@sammodeste1)
-- LinkedIn - [sam-atkinson-modeste](https://www.linkedin.com/<<sam-atkinson-modeste>>)
+- LinkedIn - [sam-atkinson-modeste](https://www.linkedin.com/in/sam-atkinson-modeste/)
 - GitHub - [SamAtkinsonModeste](https://www.github.com/SamAtkinsonModeste)
 
 
